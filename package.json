@@ -1,0 +1,37 @@
+{
+  "name": "spacings",
+  "version": "0.0.1",
+  "description": "Spacing system.",
+  "source": "src/index.scss",
+  "main": "dist/index.css",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetabhi/spacings.git"
+  },
+  "keywords": [
+    "spacings",
+    "spacing-blocks",
+    "tokens",
+    "design-tokens",
+    "8-point"
+  ],
+  "author": "@planetabhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planetabhi/spacings/issues"
+  },
+  "homepage": "https://github.com/planetabhi/spacings#readme",
+  "devDependencies": {
+    "@parcel/transformer-css": "^2.13.2",
+    "@parcel/transformer-sass": "^2.13.2",
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.13.2"
+  }
+}
