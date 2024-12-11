@@ -1,5 +1,18 @@
 # Spacings
-8-point spacing system for consistency and scalability.
+8-point spacings.
+
+### Installation
+```bash
+npm i -D spacings
+```
+
+### Usage
+```scss
+// Place this at the top of your SCSS/CSS file
+@use 'spacings';     /* for SCSS */
+OR
+@import 'spacings';  /* for CSS */
+```
 
 ### Variables
 ```css
@@ -22,13 +35,7 @@
 <!-- Add 1.5rem padding to the bottom -->
 <div class="sp-u-pb-24"></div>
 
-<!-- Add 64px margin to the left -->
-<div class="sp-u-ms-64"></div>
-
-<!-- Remove all margins -->
-<div class="sp-u-m-00"></div>
-
-<!-- Add 2rem padding to both top and bottom -->
+<!-- Add 32px padding to both top and bottom -->
 <div class="sp-u-py-32"></div>
 
 <!-- Add 8px margin on both sides (inline) -->

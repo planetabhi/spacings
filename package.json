@@ -1,7 +1,7 @@
 {
   "name": "spacings",
-  "version": "0.0.1",
-  "description": "Spacing system.",
+  "version": "0.1.0",
+  "description": "8-point spacings.",
   "source": "src/index.scss",
   "main": "dist/index.css",
   "targets": {
@@ -16,11 +16,14 @@
     "url": "git+https://github.com/planetabhi/spacings.git"
   },
   "keywords": [
-    "spacings",
+    "spacing",
     "spacing-blocks",
     "tokens",
-    "design-tokens",
-    "8-point"
+    "utilities",
+    "variables",
+    "8-point",
+    "margins",
+    "paddings"
   ],
   "author": "@planetabhi",
   "license": "MIT",
